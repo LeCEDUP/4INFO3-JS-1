@@ -7,7 +7,7 @@ Para resolver estes exercícios, você deve criar um **Pull Request (PR)** diret
 1. **Clone o repositório** (se ainda não tiver clonado):
 
    ```bash
-   git clone https://github.com/Alicite/exercicios_js_pythonistas.git
+   git clone https://github.com/LeCEDUP/4INFO3-JS-1.git
    cd exercicios_js_pythonistas
    ```
 
