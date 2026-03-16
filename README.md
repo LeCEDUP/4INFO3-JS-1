@@ -8,7 +8,7 @@ Para resolver estes exercícios, você deve criar um **Pull Request (PR)** diret
 
    ```bash
    git clone https://github.com/LeCEDUP/4INFO3-JS-1.git
-   cd exercicios_js_pythonistas
+   cd 4INFO3-JS-1
    ```
 
 2. **Crie uma nova branch** para a sua alteração:
