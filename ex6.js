@@ -5,7 +5,10 @@ titulo.textContent = "DOM Manipulado!";
 const paragrafo = document.querySelector('.texto-paragrafo');
 paragrafo.classList.add('destaque');
 // 3. Selecione o botão pelo seu ID. Adicione um event listener de 'click' a ele.
-
+const botao = document.getElementById('botao-alterar');
+botao.addEventListener('click', function() {
+    paragrafo.textContent = "Texto alterado pelo clique!";
+});
 // Quando o botão for clicado, mude o textContent do parágrafo para "Texto alterado pelo clique!".
 
 // 4. Crie um novo elemento <p> com o textContent "Este é um novo parágrafo criado via JS!".
