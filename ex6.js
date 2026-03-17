@@ -13,3 +13,7 @@ botao.addEventListener('click', function() {
 
 // 4. Crie um novo elemento <p> com o textContent "Este é um novo parágrafo criado via JS!".
 // Adicione este novo parágrafo ao elemento <div> com o ID "containernovo-elemento"
+const novoParagrafo = document.createElement('p');
+novoParagrafo.textContent = "Este é um novo parágrafo criado via JS!";
+const container = document.getElementById('container-novo-elemento');
+container.appendChild(novoParagrafo);
