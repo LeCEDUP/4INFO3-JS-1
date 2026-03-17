@@ -1,5 +1,6 @@
 // 1. Selecione o elemento h1 pelo seu ID e mude seu textContent para "DOM Manipulado!".
-
+const titulo = document.getElementById('titulo-dom');
+titulo.textContent = "DOM Manipulado!";
 // 2. Selecione o parágrafo pela sua classe e adicione a classe CSS "destaque" a ele.
 
 // 3. Selecione o botão pelo seu ID. Adicione um event listener de 'click' a ele.
