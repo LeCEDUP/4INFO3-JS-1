@@ -1,10 +1,21 @@
-// 1. Selecione o elemento h1 pelo seu ID e mude seu textContent para "DOM Manipulado!".
 
-// 2. Selecione o parágrafo pela sua classe e adicione a classe CSS "destaque" a ele.
+const titulo = document.getElementById('meu-titulo');
+titulo.textContent = 'DOM Manipulado!';
 
-// 3. Selecione o botão pelo seu ID. Adicione um event listener de 'click' a ele.
 
-// Quando o botão for clicado, mude o textContent do parágrafo para "Texto alterado pelo clique!".
+const paragrafo = document.querySelector('.meu-paragrafo');
+paragrafo.classList.add('destaque');
 
-// 4. Crie um novo elemento <p> com o textContent "Este é um novo parágrafo criado via JS!".
-// Adicione este novo parágrafo ao elemento <div> com o ID "containernovo-elemento"
+
+const botao = document.getElementById('meu-botao');
+botao.addEventListener('click', function() {
+  paragrafo.textContent = 'Texto alterado pelo clique!';
+});
+
+
+const novoParagrafo = document.createElement('p');
+novoParagrafo.textContent = 'Este é um novo parágrafo criado via JS!';
+
+const container = document.getElementById('container-novo-elemento');
+container.appendChild(novoParagrafo);
+
